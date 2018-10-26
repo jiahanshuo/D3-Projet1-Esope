@@ -24,6 +24,13 @@ header a {
   color : #ffffff;
   padding: 12px;
   display: block;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+section{
+
 }
 
 /* A noter ici :
@@ -53,6 +60,9 @@ header a {
 section {
   min-height: 90vh;
   padding: 42px;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .odd {
@@ -91,11 +101,17 @@ footer {
   font-family: 'Abril Fatface',cursive;
   font-size: 7em;
   font-weight: 800;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 #section02 p{
   font-family: 'Crete Round',serif;
   font-size: 1em;
   line-height: 2;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /*
